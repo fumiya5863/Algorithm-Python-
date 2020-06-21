@@ -15,7 +15,7 @@ Algorithm using python
 
 ```
 git clone https://github.com/fumiya5863/Algorithm-Python-.git
-cd *(フォルダ)
+cd *(フォルダ名)
 python *.py
 ```
 
