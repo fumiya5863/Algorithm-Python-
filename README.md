@@ -6,20 +6,19 @@ Algorithm using python
 ## Requirement
 - python 3.7.x以上
 
-## 利用方法
+## How to Use
 - 色々なアルゴリズムをpythonで実装
 
 競技プログラミングをpythonで解いている人
 
 ## Usage
-
 ```
 git clone https://github.com/fumiya5863/Algorithm-Python-.git
 cd *(フォルダ名)
 python *.py
 ```
 
-## Folder Composition
+## Folder structure
 - Algorithm-Python-/
     - accumulation_sum/(累積和)
         - *.py (pythonの実行ファイル)
