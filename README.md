@@ -11,9 +11,10 @@ Algorithm using python
 
 競技プログラミングをpythonで解いている人
 
-## 実行
+## Usage
 
 ```
+
 python *.py
 ```
 
