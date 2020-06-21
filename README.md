@@ -6,7 +6,7 @@ Algorithm using python
 ## Requirement
 - python 3.7.x以上
 
-## How to Use
+## Features
 - 色々なアルゴリズムをpythonで実装
 
 競技プログラミングをpythonで解いている人
