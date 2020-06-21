@@ -19,7 +19,7 @@ cd *(フォルダ名)
 python *.py
 ```
 
-##　Folder Composition
+## Folder Composition
 - Algorithm-Python-/
     - accumulation_sum/(累積和)
         - *.py (pythonの実行ファイル)
