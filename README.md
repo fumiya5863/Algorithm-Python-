@@ -3,7 +3,7 @@ Algorithm using python
 (Pythonを使用して色々なアルゴリズムを実装する)
 
 ## 説明
-## 環境構成
+## Requirement
 - python 3.7.x以上
 
 ## 利用方法
