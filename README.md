@@ -14,7 +14,8 @@ Algorithm using python
 ## Usage
 
 ```
-
+git clone https://github.com/fumiya5863/Algorithm-Python-.git
+cd *(フォルダ)
 python *.py
 ```
 
