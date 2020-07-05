@@ -7,8 +7,10 @@ N, M = map(int, input().split())
 G = []
 for n in range(N):
     G.append([])
+# 有効グラフの場合
 for m in range(M):
     a, b = map(int, input().split())
     G[a].append(b)
     # 無向グラフの場合
     # G[b].append(a)
+print(G)

@@ -1,18 +1,22 @@
 # 行きがけ順と帰りがけ順
 
+# 入力受け取り
 N, M = map(int, input().split())
-seen = [False]*N
+
+seen        = [False]*N
 first_order = [0]*N # 行きがけ順
-last_order = [0]*N  # 帰りかけ順
-first_ptr = 0
-last_ptr = 0
+last_order  = [0]*N  # 帰りかけ順
+first   = 0
+last    = 0
 
 # 深さ優先探索
 def dfs(G, v):
-    global first_ptr
-    global last_ptr
-    first_order[v] = first_ptr
-    first_ptr = first_ptr + 1
+    global first
+    global last
+
+    # 行きかけ順に1プラス
+    first_order[v] = first
+    first = first + 1
 
     seen[v] = True
     for next_v in G[v]:
@@ -20,9 +24,11 @@ def dfs(G, v):
             continue
         dfs(G, next_v)
     
-    last_order[v] = last_ptr
-    last_ptr = last_ptr + 1
+    # 帰りがけ順に1プラス
+    last_order[v] = last
+    last = last + 1
 
+    
 # # タイムスタンプの場合
 # ptr = 0
 # def dfs(G, v):
